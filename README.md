@@ -1,3 +1,5 @@
+![licence](https://img.shields.io/github/license/reddersc022/brainfuck-interpreter)
+
 # Brainfuck Interpreter  
 Enclosed is an interpreter, written in Python currently, to run [BrainFuck](https://en.wikipedia.org/wiki/Brainfuck) code.
 
