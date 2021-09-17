@@ -41,6 +41,10 @@ def sort_error(ins_pointer: int, message: str):
 
 
 def main(args: List[str]):
+    if len(args) != 2:
+        print("Please provide one file to use (ie., python src\\brainfuck.py tests\\echo)")
+        return
+    
     file = args[1]
     code = sort_file(file)
 
@@ -123,6 +127,7 @@ def main(args: List[str]):
         # Finish up
         instruction_pointer += 1
     save_end_state(array)
+    return
 
 
 if __name__ == "__main__":
