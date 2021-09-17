@@ -1,0 +1,4 @@
+*.code-workspace
+outputs/end_states/*
+outputs/output/*
+.git/
