@@ -63,7 +63,7 @@ def main(args: List[str]):
 
         # Sort instruction
         if instruction == ">":
-            if array_pointer < 299:
+            if array_pointer < ARRAY_SIZE - 1:
                 array_pointer += 1
             else:
                 sort_error(
