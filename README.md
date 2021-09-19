@@ -23,15 +23,27 @@ Enclosed is an interpreter, written in Python currently, to run [BrainFuck](http
     Anything else throws an error
 
 ### Usage
+#### Python
 ``python src\brainfuck.py code_file``
+#### C
+``gcc -o brainfuck src/brainfuck.c``  
+``brainfuck code_file``
 
 ### Tests
+#### Python
 To add two inputted numbers:  
 ``python src\brainfuck.py tests\add_two_numbers``  
 To echo any input:  
 ``python src\brainfuck.py tests\echo``  
 Hello world!  
 ``python src\brainfuck.py tests\hello_world``  
+#### C
+To add two inputted numbers:  
+``brainfuck tests\add_two_numbers``  
+To echo any input:  
+``brainfuck tests\echo``  
+Hello world!  
+``brainfuck tests\hello_world``  
 
 ### Notes
 - The end state will be saved as: ``outputs\end_states\dd-mm-yy hhmmss.json``
