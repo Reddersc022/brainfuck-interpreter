@@ -17,7 +17,10 @@ Enclosed is an interpreter, written in Python currently, to run [BrainFuck](http
 ### Rules
 - All values stored are initially 0, and can only be integers.  
 - The array of values has a constant length (usually 30,000) and this can be edited in the code. Any attempt to access past the max length will result in an error.  
-- Any inputs must be either an integer or single character (not newline), anything otherwise causes an error
+- Any inputs must be either:  
+    - An integer or single character in thr Python version
+    - A single character in the C version  
+    Anything else throws an error
 
 ### Usage
 ``python src\brainfuck.py code_file``
@@ -35,6 +38,9 @@ Hello world!
 - Any output will be saved as: ``outputs\output\dd-mm-yy hhmmss.txt``
 
 ### TODO
+#### Python:
 - [x] Implement basic syntax  
 - [x] Implement comments  
-- [ ] Update to C  
+#### C:
+- [x] Implement basic syntax  
+- [ ] Implement comments  

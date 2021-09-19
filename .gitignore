@@ -3,3 +3,4 @@ outputs/end_states/*
 outputs/output/*
 .git/
 */__pycache__/
+.vscode/
