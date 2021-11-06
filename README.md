@@ -48,11 +48,3 @@ Hello world!
 ### Notes
 - The end state will be saved as: ``outputs\end_states\dd-mm-yy hhmmss.json``
 - Any output will be saved as: ``outputs\output\dd-mm-yy hhmmss.txt``
-
-### TODO
-#### Python:
-- [x] Implement basic syntax  
-- [x] Implement comments  
-#### C:
-- [x] Implement basic syntax  
-- [x] Implement comments  
