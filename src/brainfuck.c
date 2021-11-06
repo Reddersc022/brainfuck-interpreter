@@ -60,7 +60,10 @@ int main(int argc, char *argv[]) {
 
         switch (ins) {
             case '#':
-                while (code[ins_p++] != '\n') {}
+                while (!(code[ins_p] == '\n' || code[ins_p] == EOF)) {
+                    ins_p++;
+                }
+                break;
             case '>':
                 if (arr_p < ARR_SIZE-1) {
                     arr_p++;
