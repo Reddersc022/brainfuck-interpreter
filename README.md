@@ -18,7 +18,7 @@ Enclosed is an interpreter, written in Python currently, to run [BrainFuck](http
 - All values stored are initially 0, and can only be integers.  
 - The array of values has a constant length (usually 30,000) and this can be edited in the code. Any attempt to access past the max length will result in an error.  
 - Any inputs must be either:  
-    - An integer or single character in thr Python version
+    - An integer or single character in the Python version
     - A single character in the C version  
     Anything else throws an error
 
