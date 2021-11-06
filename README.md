@@ -24,26 +24,26 @@ Enclosed is an interpreter, written in Python currently, to run [BrainFuck](http
 
 ### Usage
 #### Python
-``python src\brainfuck.py code_file``
+``python src\brainfuck.py code_file.bf``
 #### C
 ``gcc -o brainfuck src/brainfuck.c``  
-``brainfuck code_file``
+``brainfuck code_file.bf``
 
 ### Tests
 #### Python
 To add two inputted numbers:  
-``python src\brainfuck.py tests\add_two_numbers``  
+``python src\brainfuck.py tests\add_two_numbers.bf``  
 To echo any input:  
-``python src\brainfuck.py tests\echo``  
+``python src\brainfuck.py tests\echo.bf``  
 Hello world!  
-``python src\brainfuck.py tests\hello_world``  
+``python src\brainfuck.py tests\hello_world.bf``  
 #### C
 To add two inputted numbers:  
-``brainfuck tests\add_two_numbers``  
+``brainfuck tests\add_two_numbers.bf``  
 To echo any input:  
-``brainfuck tests\echo``  
+``brainfuck tests\echo.bf``  
 Hello world!  
-``brainfuck tests\hello_world``  
+``brainfuck tests\hello_world.bf``  
 
 ### Notes
 - The end state will be saved as: ``outputs\end_states\dd-mm-yy hhmmss.json``
@@ -55,4 +55,4 @@ Hello world!
 - [x] Implement comments  
 #### C:
 - [x] Implement basic syntax  
-- [ ] Implement comments  
+- [x] Implement comments  
