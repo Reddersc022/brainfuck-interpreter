@@ -59,6 +59,8 @@ int main(int argc, char *argv[]) {
         ins = code[ins_p];
 
         switch (ins) {
+            case '#':
+                while (code[ins_p++] != '\n') {}
             case '>':
                 if (arr_p < ARR_SIZE-1) {
                     arr_p++;
